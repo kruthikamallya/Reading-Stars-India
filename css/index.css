@@ -1,0 +1,466 @@
+.mynav{
+  margin-top: -1rem;
+}
+
+.nav-link{
+  font-size: 3rem;
+  }
+
+#my-nav-item{
+  font-size: 50px;
+}
+
+#Button a{
+	text-decoration: none;
+	color: inherit;
+}
+
+#ourVision{
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-bottom: 3rem;
+  text-align: left;
+}
+
+
+
+/* Desktop*/
+@media screen and (min-width: 763px){
+  .showHide  { display: block; }
+  .openbtn { display: none; }
+}
+
+.display-3{
+	text-align: center;
+	color: black;
+}
+
+#breadcrumb{
+	border:none;
+	font-size: 15px;
+}
+
+#raisingReaders{
+	font-size: 15px;
+	color: black;
+}
+
+.raisingReaders_title{
+	margin-bottom: 10px;
+	margin-top: 10px;
+	color: black;
+	text-align: center;
+}
+
+.raisingReadersList1{
+	 margin-top: 4.5rem;
+}
+
+/*.raisingReadersList2{
+ 
+}*/
+
+.raisingReadersList3{
+	margin-top: 5px;
+}
+/*raising readers*/
+
+.creatingLibraries_title{
+	font-size: 25px;
+	color: black;
+	text-align: center;
+}
+
+.creatingLibraries p{
+	text-align: center;
+	font-size: 25px;
+	color: black;
+}
+
+#creatingLibraries{
+	font-size: 20px;
+	color: black;
+}
+
+/* Create two equal columns that floats next to each other */
+
+.column_b {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  display: table-cell;
+  margin-bottom: 0px;
+}
+
+.column_c{
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  display: table-cell;
+}
+
+.ourTeam img{
+  max-height: 40%;
+  max-width: 100%;
+  margin-bottom: 2rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.reach
+{
+   border:1px solid black;
+  padding: 0px;
+  }
+
+
+/* Remove extra left and right margins, due to padding */
+/*.row {margin: 0 -5px;}*/
+
+/* Clear floats after the columns */
+/*.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}*/
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .column .column_c .column_d {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+.contactUs{
+	color: black;
+}
+
+#map{
+  padding: 3rem;
+}
+
+#socialMedia{
+	color: black;
+	margin-right:10px;
+	text-align: right;
+  
+}
+
+.socialMedia{
+	color: black;
+	text-align: right;
+}
+
+#socialMediaV{
+  color: black;
+  margin-right:10px;
+  text-align: right;
+  /*padding-right: 3rem;*/
+}
+
+.socialMediaV{
+  color: black;
+  /*margin-right:120px;*/
+  text-align: right;
+}
+
+.contactUs_p{
+	font-size: 18px;
+	color: black;
+	text-align: center;
+}
+
+.contactUs_pa{
+	font-size: 18px;
+	color: black;
+
+}
+
+.contactUs_pb{
+  margin-top: 4.5rem;
+	margin-left: 35px;
+	font-size: 16px;
+	color: black;
+}
+
+.contactUs_pd{
+  font-size: 16px;
+  color: black;
+  text-align: left;
+  margin-left: 9rem;
+}
+
+.contactUs_pm{
+	margin-left: 15px;
+	font-size: 16px;
+	color: black;
+}
+
+.contactUs_pc{
+	font-size: 18px;
+	color: black;
+  margin-left: 17rem;
+	text-align: right;
+
+	/*margin-right: 120px;
+  margin-bottom: 1rem;*/
+}
+
+.contactUs_pv{
+  font-size: 18px;
+  color: black;
+  text-align: right;
+  margin-right: 10rem;
+  }
+
+/*back to top btn*/
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: #32CD32;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+#myBtn:hover {
+  background-color: black;
+}
+
+.bottomBar{
+	background-color: #58C7DC;
+	color: white;
+}
+
+.bottomBar p{
+	font-size: 15px;
+	text-align: center;
+}
+
+.bottomBar p small{
+	font-size: 18px;
+	margin-top: 150px;
+}
+
+.bottomBar a{
+	text-decoration: none;
+	color: inherit;
+}
+
+.events p{
+	color: black;
+	font-size: 25px;
+  text-align: center;
+}
+
+.events p strong{
+  color: black;
+  font-size: 20px;
+  text-align: center;
+}
+
+.events img{
+  max-height:103%;
+  max-width: 103%;
+}
+
+.gallery h1{
+  color: black;
+  text-align: center;
+  font-size: 6.5rem;
+}
+
+.ourReach{
+  margin-left: 12rem;
+}
+
+.ourReach p
+{
+  text-align: left;
+
+}
+
+.ourReach i{
+  margin-left: 10px;
+}
+
+.events h6{
+  color: black;
+  text-align: center;
+  font-size: 40px;
+  padding-top: 40px;
+}
+
+
+.thumbnail{
+  max-width:100%;
+  max-height:100%;
+  min-height: 100; 
+}
+
+/*modal*/
+/*#bigImage{
+  max-width: 50%;
+  max-height:50%;
+}*/
+
+.myimages img{
+  transition: 1s;
+  margin-left: 2rem;
+  margin-right: 4rem;
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.myimages img:hover{
+  filter: grayscale(100%);
+  transform: scale(1.1);
+}
+
+/*@media only screen and (max-width: 700px){
+  #bigImage{
+    width: 100%;
+  }
+}*/
+
+/*modal*/
+
+
+/* On smaller screens, decrease text size 
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+/*slideshow*/
+
+.slideshow-container {
+  padding-bottom:1rem;
+  position: relative;
+  text-align: center;
+  margin:auto;  
+  max-width:100%;
+}
+
+.mySlides img {
+  width:90%;
+  height:90%;
+  object-fit: cover;
+  border: 1px solid gray;
+  filter: grayscale(50%);
+}
+
+#slides{
+  text-align: center;
+  padding-top:8rem;
+  max-width:100%;
+  max-height:100%;
+}
+
+#club{
+  text-align: center;
+  padding-top:3rem;
+  max-width:90%;
+  max-height:90%;
+}
+
+/* Number text (1/3 etc) */
+/*.numbertext {
+  color: black;
+  font-size: 2rem;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}*/
+
+/* Fading animation */
+.ease {
+  -webkit-animation-name: ease;
+  -webkit-animation-transition:opacity 0.6s ease-in-out;
+  -webkit-animation-duration: 3s;
+  animation-name: ease;
+  animation-duration: 3s;
+}
+
+@-webkit-keyframes ease {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes ease {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* The dots/bullets/indicators */
+.dot{
+  height: 2rem;
+  width: 2rem;
+  margin: 2rem;
+  border-radius: 50%;
+  background-color: #bbb;
+  display: inline-block;
+  transition: background-color 0.4s ease;
+}
+
+.dots{
+  text-align: center;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.ease {
+  -webkit-animation-name: ease;
+  -webkit-animation-duration: 4.5s;
+  animation-name: ease;
+  animation-duration: 4s;
+  transition: all 0.7s ease-in-out 0.3s;
+}
+
+@-webkit-keyframes ease {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes ease {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+#story{
+  margin-left:10rem;
+  padding:5rem;
+  max-width:80%;
+  max-height:80%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+

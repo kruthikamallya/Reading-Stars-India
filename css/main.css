@@ -1,0 +1,280 @@
+@font-face {
+  font-family: Helvetica;
+  src: url(./fonts/helvetica-regular.ttf);
+}
+
+@font-face{
+	font-family: Raleway;
+	src:url(./fonts/Raleway-Regular.ttf);
+}
+
+body{
+	font-family: Helvetica;
+  color: black;
+  
+}
+
+h1,h2,h3,h4,h5,h6{
+	font-family: Raleway;
+  color: black;
+  
+}
+
+.nav-link {
+  font-size: 1.8rem;
+  margin-left: 0.8rem;
+  }
+
+.bottomBar{
+	background-color: #FFCC13;
+	color:#3c3c3c;
+}
+
+.sticky li {
+	background-color:#FFCC13;
+	color:#696969;
+}
+
+.sticky li p{
+	color:#696969;
+}
+
+.sticky li a{
+	color: #696969;
+}
+
+.openbtn .sidepanel{
+	background-color: #696969;
+}
+
+.img{
+	position: relative;
+	max-width: 15%;
+	max-height:20%;
+	padding-bottom: 2rem;
+	padding-top: 1rem;
+	padding-left: 2rem;
+	
+}
+
+.img-kids{
+  max-height: 20%;
+  max-width: 15%;
+  padding-top: 2.5rem;
+  position: absolute;
+  top: 1rem;
+  right: 6rem;
+}
+
+.img-child{
+	width:90%;
+	height: auto;
+  /*background-size: 100% 100%;
+  height: 100%;*/
+}
+
+.img-lib{
+  width:90%;
+  height:75%;
+  /*background-size: 100% 100%;
+  height: 100%;*/
+}
+
+.mission{
+  color:black;
+	text-align: center;
+	font-size: 25px;
+	margin-left: 3rem;
+}
+
+/*div.container {
+    height: 10em;
+    position: relative }
+div.container p {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) }*/
+
+.vision small{
+	text-align: justify;
+  text-justify: inter-word;
+	text-align: left;
+	font-size: 2.2rem;
+	color: black;
+	padding-bottom: 0px;
+	justify-content: center;	
+}
+
+.vision p{
+  text-align: justify;
+  text-justify: inter-word;
+  text-align: left;
+  font-size: 2.2rem;
+  color: black;
+  justify-content: center;
+  padding: -1rem;  
+}
+
+.vision h1{
+  margin-top: -3rem;
+	color: black;
+	font-size: 4rem;
+	justify-content: center;
+}
+
+
+.ourTeam p{
+	color: black;
+	font-size: 20px;
+	text-align: center;
+  text-align: justify;
+  text-justify: inter-word;
+  margin-left: 3rem;
+}
+
+.ourTeam img{
+  max-height: 40%;
+  max-width: 100%;
+  margin-bottom: 2rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+p.teamname{
+	color: black;
+	font-size: 20px;
+	text-align: center;
+	
+}
+
+
+p.icon{
+	text-align: center;
+}
+
+
+#ourStory
+{
+  text-align: justify;
+  text-justify: inter-word;
+  margin-left: 1rem;
+  margin-right: 4rem;
+}
+
+.row {
+  display: table;
+  width: 100%;
+}
+
+.column_b {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  display: table-cell;
+  
+}
+/*vision columns*/
+.col-container {
+  display: flex;
+  width: 100%;
+  padding: 0px;
+  margin:0px;
+}
+
+
+
+.column_d{
+  float: left;
+  width: 25%;
+  display: table-cell;
+  font-size: 20px;
+  color: black;
+  text-align: center;
+  margin-top: -1.2rem; 
+}
+
+/*sidepanel*/
+.sidepanel  {
+  width:0;
+  position: fixed;
+  z-index: 1;
+  height: 250px;
+  top: 0;
+  left: 0;
+  background-color: #696969;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidepanel a {
+  padding: 8px 8px 8px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: white;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidepanel a:hover {
+  color: #32CD32;
+}
+
+.sidepanel .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+}
+
+.openbtn {
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #696969;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+}
+
+.openbtn:hover {
+  background-color:#32CD32;
+}
+
+/* Add an active class to the active dropdown button */
+.active {
+  background-color: green;
+  color: white;
+}
+
+/* Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the design of the dropdown content */
+.dropdown-container {
+  display: none;
+  background-color: #696969;
+  padding-left: 8px;
+}
+
+.dropdown-btn{
+  background-color:#696969;
+  border:none;
+  float: right;
+  color: white;
+  margin-top: -3.5rem;
+ 
+  
+}
+
+
+
+/* Optional: Style the caret down icon */
+.fa-caret-down {
+  float: right;
+  padding-right: 8px;
+}
+
+/*sidepanel*/
+
